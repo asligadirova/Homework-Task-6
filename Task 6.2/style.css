@@ -1,0 +1,41 @@
+#wrapper{
+    display: flex;   
+    width: 100%; 
+    flex-wrap: wrap;
+  
+    
+    
+    /* justify-content: space-around; */ 
+} 
+.product{
+    padding-bottom: 24px; 
+    padding-bottom: 24px;
+}
+#systems-expert{
+ width: 50%;
+ order: -2;
+ background-color: rgb(255, 0, 98);
+}
+#ml-expert{
+ width: 30%;
+ height: 75%;
+ background-color: orange;
+ order: -1;
+ margin-left: auto;
+}
+#algo-expert{
+    width: 75%;
+    background-color: rgb(0, 204, 255);
+    margin: auto;
+    justify-content: center;
+}
+#frontend-expert{
+    width: 40%;
+    margin-right: 10px;
+    background-color: green;    
+}
+#programming-expert{
+ width: 59%;
+    height: 75px;
+    background-color: rgb(255, 0, 34);
+}
