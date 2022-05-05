@@ -1,45 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 #wrapper{
     display: flex;   
-    width: 100%; 
-    text-align: center;   
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* height: 200px; */
- 
-    /* justify-content: center; */
-     border: 2px solid black;
+    width: 100%;       
+    flex-wrap: wrap;  
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: row; */
 
-    align-items: flex-end;
-  
-    box-sizing: border-box;
-    flex: 0 1 auto;
-    
-   
-    
-    
-    /* justify-content: space-around; */ 
-} 
-
-  .product{
-   color: white;
-   text-align: center;
-   
-  
-   /* align-items: baseline; */
-   
-  }  
+ } 
+.product{
+color: white;
+text-align: center;  
+margin-bottom: 24px; 
+margin-top: 0px;
+}  
 
 #systems-expert{
  width: 50%;
  order: -2;
- height: 37.5px;
- 
+ height: 37.5px; 
  background-color: rgb(255, 0, 98);
- margin-bottom: 24px;
  align-self: center;
-
-
 }
+
 #ml-expert{
  width: 30%;
  height: 75px;
@@ -48,26 +35,26 @@
  margin-left: auto;
  margin-bottom: 24px; 
 }
+
+
 #algo-expert{
-    width: 75%;
-    background-color: rgb(0, 204, 255);
-    margin: auto;
-   
-    margin-bottom: 24px;
-    height: 30px;
-    
+ width: 75%;
+ background-color: rgb(0, 204, 255);
+ margin: auto;   
+ margin-bottom: 24px;    
 }
+
 #frontend-expert{
-    width: 40%;
-    height: 40px;
-    margin-right: 10px;
-    background-color: green;   
-  
+ width: 40%;
+  height: 40px;
+  margin-right: 10px;
+  background-color: green;  
+  align-self: flex-end;  
 }
 
 #programming-expert{
-    width: 59.25%;
-    height: 75px;
-    background-color: rgb(255, 0, 34);
+ flex-grow: 1;
+  height: 75px;
+  background-color: rgb(255, 0, 34);
     
 }
